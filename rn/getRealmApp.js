@@ -3,9 +3,9 @@ import Realm from 'realm';
 let app;
 
 // Returns the shared instance of the Realm app.
-export function getRealmApp() {
+export function App() {
   if (app === undefined) {
-    const appId = '<enter your Realm app ID here>'; // Set Realm app ID here.
+    const appId = '<realm-coavl>'; // Set Realm app ID here.
     const appConfig = {
       id: appId,
       timeout: 10000,
